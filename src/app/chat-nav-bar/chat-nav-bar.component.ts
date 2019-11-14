@@ -4,6 +4,10 @@ import {
   OnInit
 } from '@angular/core';
 import * as _ from 'lodash';
+import { AuthService } from '../core/auth.service';
+import * as firebase from 'firebase/app';
+
+import { AngularFireAuth } from 'angularfire2/auth';
 
 import { ThreadsService } from './../thread/threads.service';
 import { MessagesService } from './../message/messages.service';
